@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DarX Store</title>
+  </head>
+  <body>
+    <!--Menu de Navegação-->
+    <div class="logo">DarX Store</div>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Contatos</li>
+        </ul>
+      </nav>
+    </header>
+    <!--Fim do Menu de Navegação-->
+
+    <!--Conteudo Principal da Pagina-->
+    <main>
+      <!--Circulos do Fundo da Sessão de Produtos-->
+      <div class="tech__circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <!--Fim dos Circulos do Fundo da Sessão de Produtos-->
+
+      <!--Lista de Produtos em Carrousel-->
+      <div class="list">
+        <div class="item active">
+          <div class="product__img">
+            <img src="./img/Iphone16.png" alt="IPhone 16Pro" />
+          </div>
+
+          <div class="content">
+            <p class="product__tag">Novo Lançamento</p>
+            <p class="product__name">IPhone 16 Pro Max</p>
+            <p class="description">
+              O iPhone 16 Pro Max é a inovação em sua forma mais poderosa.
+              Capture fotos e vídeos de tirar o fôlego com o novo sistema de
+              câmeras de nível profissional. Sinta a velocidade inigualável do
+              chip A18 Pro e mergulhe em uma experiência visual extraordinária
+              na maior e mais brilhante tela Pro. Com design em titânio, é o
+              smartphone definitivo para quem busca o máximo em desempenho e
+              sofisticação.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product__img">
+            <img src="./img/MacBook.png" alt="MacBook Pro 2024" />
+          </div>
+
+          <div class="content">
+            <p class="product__tag">Alta Permormace</p>
+            <p class="product__name">MacBook Air 13 Pol.</p>
+            <p class="description">
+              O MacBook Air de 13 Polegadas foi redesenhado para a sua
+              produtividade máxima. Equipado com o chip M-series de última
+              geração, ele oferece um salto gigantesco em desempenho, lidando
+              com tarefas complexas e jogos com total fluidez, tudo isso com uma
+              bateria que dura o dia inteiro. Com um design incrivelmente fino e
+              leve, o novo MacBook é a combinação perfeita de poder e
+              portabilidade, ideal para quem busca o melhor, em qualquer lugar.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product__img">
+            <img src="./img/SmartwatchApple.png" alt="Smart Watch Series 10" />
+          </div>
+
+          <div class="content">
+            <p class="product__tag">Mais que um relógio</p>
+            <p class="product__name">Apple Watch Series 9</p>
+            <p class="description">
+              Descubra o poder da inovação no seu pulso. O Apple Watch Series 9
+              foi criado para ser mais rápido e intuitivo, oferecendo uma nova
+              forma de interação com o revolucionário gesto de Toque Duplo, que
+              permite controlar o relógio com uma mão. Equipado com o novo chip
+              S9, ele oferece um desempenho superior para um monitoramento de
+              saúde ainda mais preciso e uma tela duas vezes mais brilhante. É o
+              parceiro ideal para seu bem-estar, conectividade e estilo.s
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+      <!--Fim da Lista de Produtos em Carrousel-->
+
+      <!--Setas de Navegação do Carrousel-->
+      <div class="arrows">
+        <button class="arrow__btn" id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-left-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"
+            />
+          </svg>
+        </button>
+        <button class="arrow__btn" id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+            />
+          </svg>
+        </button>
+      </div>
+      <!--Fim das Setas de Navegação do Carrousel-->
+
+      <!--Indicadores do Carrousel-->
+      <div class="indicators">
+        <div class="numbers">01</div>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+      <!--Fim dos Indicadores do Carrousel-->
+    </main>
+    <!--Fim do Conteudo Principal da Pagina-->
+  </body>
+</html>
